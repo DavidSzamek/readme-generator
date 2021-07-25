@@ -20,49 +20,50 @@ const questions = [
     {
         type: 'input',
         name: 'description',
-        message: 'Briefly describe your project.',
+        message: 'Provide a short description explaining the what, why, and how of your project.',
     },
     // Project Installation 
     {
         type: 'input',
         name: 'installation',
-        message: 'Briefly describe any installation requirements.',
+        message: 'What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.',
     },
     // Usage
     {
         type: 'input',
         name: 'usage',
-        message: 'How do you use this project?',
+        message: 'Provide instructions and examples for use. Include screenshots as needed.',
     },
-    // Contribution 
+    // Credits 
     {
         type: 'input',
-        name: 'contribution',
-        message: 'How should people contribute to this project?',
-    },
-    // Test
-    {
-        type: 'input',
-        name: 'testing',
-        message: 'How did you test this project?',
+        name: 'credits',
+        message: 'Are there any collaborators, third-party assets or tutorials that require attribution?',
     },
     // License Options
     {
         type: 'checkbox',
         name: 'licensing',
         message: 'Choose a license for your project',
+        choices: ['Apache', 'MIT', 'Mozilla-Public', 'GNU-General-Public', 'Common-Development-and-Distribution', 'None'],
     },
     // GitHub Username
     {
         type: 'input',
         name: 'github',
-        message: 'Enter your GitHub username',
+        message: 'Please enter your GitHub username',
     },
     // Email
     {
         type: 'input',
         name: 'email',
-        message: '(Optional) Would you like to include your email address?',
+        message: 'Please enter your email address (optional)',
+    },
+    // Test
+    {
+        type: 'input',
+        name: 'testing',
+        message: 'Go the extra mile and write tests for your application. Then provide examples on how to run them here.',
     },
 ];
 
@@ -70,7 +71,9 @@ const questions = [
 function writeToFile(fileName, data) {}
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+    inquirer.prompt(questions)
+}
 
 // Function call to initialize app
 init();
