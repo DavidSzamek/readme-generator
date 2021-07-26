@@ -32,7 +32,7 @@ To initiate the application, you must;
 
 ## Functionality
 
-
+![A user creates a readme using the application.](assets/sampleApp.mp4)
 
 ## Additional Info
 
