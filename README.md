@@ -32,7 +32,7 @@ To initiate the application, you must;
 
 ## Functionality
 
-![A user creates a readme using the application.](assets/sampleApp.mp4)
+https://user-images.githubusercontent.com/83954907/126977937-abe4c4fd-61a3-4e3e-b3b7-4bbd03925d2d.mp4
 
 ## Additional Info
 
