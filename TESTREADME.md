@@ -1,7 +1,7 @@
 # Test Title For Your Project
 
   ## Description:
-  Enter a Description here
+  Your description goes here
 
   ## Table of Contents 
   1. [Project Description](#description)
@@ -29,8 +29,9 @@
   
 
   ## Additional Info:
-  - Follow me on GitHub at [Test username](https://github.com/Test username)
-  - For additional help or questions about collaboration, please reach out to my email at Test email
+  - Follow me on GitHub at [Test username](https://github.com/TESTUSERNAME)
+  - For additional help or questions about collaboration, please reach out to my email at SAMPLE@EMAIL.COM
   
   ## Test Instructions:
   
+  n/a
