@@ -18,13 +18,14 @@ function generateMarkdown(data) {
   ${data.description}
 
   ## Table of Contents 
-  - [Description](#description)
-  - [Installation](#installation)
-  - [Usage](#usage)
-  - [Contribution](#contribution)
-  - [Testing](#testing)
-  - [Additional Info](#additional-info)
-
+  1. [Project Description](#description)
+  2. [Project Installation](#installation)
+  3. [Usage](#usage)
+  4. [Credits](#credits)
+  5. [License] (#licensing)
+  6. [Additional Info](#github)
+  7. [Testing](#testing)
+  
   ## Installation:
   ${data.installation}
 
@@ -36,12 +37,16 @@ function generateMarkdown(data) {
 
   ## License:
   ${data.licensing}
+  
+  [![license](https://img.shields.io/badge/license-${data.licensing}-blue)](https://shields.io)
+
+  ${data.other}
 
   ## Additional Info:
-  - Github: [${data.github}](https://github.com/${data.github})
-  - Email: ${data.email}
+  - Follow me on GitHub at [${data.github}](https://github.com/${data.github})
+  - For additional help or questions about collaboration, please reach out to my email at ${data.email}
   
-  ## Testing:
+  ## Test Instructions:
   ${data.testing}` 
   ;
 }
